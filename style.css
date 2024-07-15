@@ -3,6 +3,8 @@
 /* Shared styles */
 body{
     font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .display-flex{
     display: flex;
@@ -119,7 +121,11 @@ h4.features-card-title {
     font-weight: 600;
 }
 button#features-btn span {
-    font-size: 60px;
+    font-size: 2.8rem;
+}
+button#features-btn {
+    margin-left: -78px;
+    margin-top: -78px;
 }
 .features-img img {
     width: 100%;
@@ -176,6 +182,19 @@ button#features-btn span {
 }
 /* sponsors section styles */
 
+/* footer section styles */
+footer{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    margin: 130px auto 150px;
+    text-align: center;
+    padding: 40px 0;
+}
+footer p{
+    font-size: 1.25rem;
+}
+/* footer section styles */
+
 
 
 
@@ -202,5 +221,8 @@ button#features-btn span {
     }
     .features{
         flex-direction: column;
+    }
+    button#features-btn {
+        margin-left: 15%;
     }
 }
